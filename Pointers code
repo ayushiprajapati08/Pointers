@@ -1,0 +1,80 @@
+#include <iostream>
+using namespace std;
+main()
+{
+    int i,j;
+    float fl;
+    int*int_ptr;
+    float*float_ptr;
+    char*char_ptr;
+
+    i = 5;
+    fl=3.14;
+    int_ptr=&i;
+
+    cout<< "*int_ptr "<< *int_ptr<<endl;
+    cout<<"&i="<< &i<<endl;
+    cout<<"int_ptr = "<<int_ptr<<endl;
+
+}
+
+
+
+
+
+
+#include<iostream>
+using namespace std;
+main()
+{
+    int i;
+    try
+    {
+
+        cout<<"Enter i:";
+        cin>>i;
+
+        if(i>20)
+        {
+            cout<<"Number entered is more than 20"<<endl;
+
+        }
+        else if(i>15)
+        { 
+            throw(i);
+
+        }
+        else
+        {
+           throw("Number less than 15");
+        }
+    }
+    catch(int x)
+    {
+        cout<<"Exception occured for i="<<i<<endl;
+
+    }
+    catch(char *message)
+    {
+        cout<<message;
+    }
+    catch(...)
+    {
+        cout<<"Default exceptional handling";
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
