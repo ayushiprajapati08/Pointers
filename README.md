@@ -79,3 +79,23 @@ The program ends after reversing and outputting the string.
 
 
 ##Code 4
+1. Start
+2. Declare variables: int i, len = 0 (to store the length of the string), float fl (a float variable), int* int_ptr (a pointer to an integer), float* flt_ptr (a pointer to a float), char* chr_ptr (a pointer to a character)
+3. Assign the integer value 5 to i and the float value 3.4 to fl.
+4. Assign the memory address of i to the integer pointer int_ptr: int_ptr = &i
+5. Assign the memory address of fl to the float pointer flt_ptr: flt_ptr = &fl
+6. Assign the string "sit" to the character pointer chr_ptr: char* chr_ptr = "sit"
+7. Output: "*int_ptr = " followed by the value pointed to by int_ptr and a newline
+8. Output: "&i = " followed by the memory address of variable i and a newline
+9. Output: The value of int_ptr (memory address of i) and a newline
+10. Output: The value of flt_ptr (memory address of fl) and a newline
+11. Use a while loop to calculate the length of the string pointed to by chr_ptr:
+    a. While the character at the memory location pointed by chr_ptr is not '\0':
+       i. Increment len by 1
+       ii. Increment chr_ptr to point to the next character in the string
+12. The program ends after calculating the length of the string and outputs nothing else.
+The program starts and declares necessary variables including pointers to integer, float, and character types, as well as other variables.
+Memory addresses of the integer and float variables are assigned to their respective pointers.
+The character pointer points to the string "sit".
+The program calculates the length of the string using pointer arithmetic and increments len for each character until the null terminator '\0' is encountered.
+The program ends after calculating the length of the string, and it doesn't output any additional values.
