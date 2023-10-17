@@ -51,3 +51,31 @@ The program ends after handling the exceptions.
 
 
 ##Code 3
+1. Start
+2. Declare variables: int i, j (loop counters), len (to store the length of the string)
+3. Initialize i = 0 and len = 0
+4. Declare a character array name[15] to store the input string
+5. Output: "Enter a name: "
+6. Input: Read the input string and store it in the name array
+7. Output: Output the input string followed by a newline
+8. Use a while loop to calculate the length of the string:
+   a. While the character at index i in the name array is not '\0':
+      i. Increment len by 1
+      ii. Increment i by 1
+9. Output: "The length of string is: len" followed by a newline
+10. Use a for loop to reverse the string and output the reversed string:
+    a. Initialize i to len - 1 (index of the last character in the string)
+    b. Repeat the loop while i is greater than or equal to 0:
+       i. Output: Output the character at index i in the name array
+       ii. Decrement i by 1
+11. End
+The program starts and declares necessary variables including loop counters and a variable to store the length of the string.
+The user is prompted to enter a name which is stored in the character array name.
+The input string is outputted followed by a newline.
+The program uses a while loop to calculate the length of the string by iterating until the null character '\0' is encountered.
+The length of the string is outputted.
+The program uses a for loop to reverse the string by iterating from the last character to the first and outputting each character.
+The program ends after reversing and outputting the string.
+
+
+##Code 4
